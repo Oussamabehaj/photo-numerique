@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les métadonnées EXIF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <a id="haut"></a>
+
+    <!-- BANNIÈRE -->
+    <header>
+        <h1>📷 La Photographie Numérique</h1>
+        <p>Un site réalisé dans le cadre du cours SNT — Lycée</p>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">🏠 Accueil</a>
+        <a href="historique.html">📜 Historique</a>
+        <a href="capteurs.html">🔬 Capteurs</a>
+        <a href="traitement.html">🖥️ Traitement</a>
+        <a href="metadonnees.html">🗂️ Métadonnées</a>
+        
+    </nav>
+
+    <main>
+
+        <h2>Les métadonnées EXIF</h2>
+
+        <p>
+            Les métadonnées EXIF sont des informations cachées dans une photo numérique.
+            Elles sont enregistrées automatiquement par l'appareil photo au moment
+            de la prise de vue. On y trouve la date, l'heure, le lieu et les
+            paramètres techniques de la photo.
+            <br><small>Source : <a href="https://pixees.fr/informatiquelycee/n_site/snt_photo.html" target="_blank">pixees.fr</a></small>
+        </p>
+
+        <!-- IMAGE CLIQUABLE AVEC LÉGENDE -->
+        <figure>
+            <a href="https://fr.wikipedia.org/wiki/Exchangeable_image_file_format" target="_blank">
+                <img src="images/exif.jpg" alt="Métadonnées EXIF d'une photo">
+            </a>
+            <figcaption>Exemple de métadonnées EXIF — clique pour en savoir plus</figcaption>
+        </figure>
+
+        <!-- LISTE ORDONNÉE -->
+        <h2>Comment lire les métadonnées EXIF ?</h2>
+        <ol>
+            <li>Prends une photo avec ton smartphone ou appareil photo</li>
+            <li>Transfère la photo sur ton ordinateur</li>
+            <li>Fais un clic droit sur la photo</li>
+            <li>Clique sur <strong>Propriétés</strong></li>
+            <li>Va dans l'onglet <strong>Détails</strong></li>
+            <li>Tu peux voir toutes les métadonnées EXIF !</li>
+        </ol>
+
+        <!-- LISTE NON ORDONNÉE -->
+        <h2>Les informations contenues dans les EXIF</h2>
+        <ul>
+            <li><strong>Date et heure</strong> : quand la photo a été prise</li>
+            <li><strong>Coordonnées GPS</strong> : où la photo a été prise</li>
+            <li><strong>Marque et modèle</strong> : quel appareil a été utilisé</li>
+            <li><strong>Résolution</strong> : taille de l'image en pixels</li>
+            <li><strong>Vitesse d'obturation</strong> : durée d'exposition à la lumière</li>
+            <li><strong>Ouverture</strong> : quantité de lumière entrante</li>
+            <li><strong>ISO</strong> : sensibilité du capteur à la lumière</li>
+        </ul>
+
+        <!-- TABLEAU -->
+        <h2>Exemple de métadonnées EXIF d'une photo</h2>
+        <table>
+            <tr>
+                <th>Métadonnée</th>
+                <th>Valeur exemple</th>
+                <th>Signification</th>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>2024-03-15 14:32:10</td>
+                <td>Date et heure de la prise de vue</td>
+            </tr>
+            <tr>
+                <td>GPS</td>
+                <td>48.8566° N, 2.3522° E</td>
+                <td>Coordonnées de Paris</td>
+            </tr>
+            <tr>
+                <td>Appareil</td>
+                <td>iPhone 15 Pro</td>
+                <td>Modèle utilisé</td>
+            </tr>
+            <tr>
+                <td>Résolution</td>
+                <td>4032 x 3024 px</td>
+                <td>Taille de l'image</td>
+            </tr>
+            <tr>
+                <td>ISO</td>
+                <td>ISO 100</td>
+                <td>Sensibilité du capteur</td>
+            </tr>
+            <tr>
+                <td>Ouverture</td>
+                <td>f/1.8</td>
+                <td>Quantité de lumière</td>
+            </tr>
+        </table>
+
+        <!-- SECTION LE SAVIEZ-VOUS -->
+        <div class="saviez-vous">
+            <strong>💡 Le saviez-vous ?</strong>
+            <p>
+                Les métadonnées GPS dans une photo peuvent révéler
+                <strong>exactement où tu habites</strong> si tu postes une photo
+                prise chez toi sur les réseaux sociaux ! La plupart des réseaux
+                sociaux suppriment automatiquement ces données pour protéger ta vie privée.
+            </p>
+        </div>
+
+        <!-- VIDÉO -->
+        <h2>Vidéo sur les métadonnées EXIF</h2>
+        <p>Voici une vidéo pour mieux comprendre les métadonnées :</p>
+        <div style="text-align:center;">
+            <video width="560" height="315" controls style="border: 3px solid #f5a623; border-radius:5px;">
+                <source src="videos/jsp3.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+        </div>
+
+        <!-- LIEN EXTERNE -->
+        <h2>Pour aller plus loin</h2>
+        <p>
+            Pour en savoir plus sur les métadonnées EXIF :
+            <a href="https://fr.wikipedia.org/wiki/Exchangeable_image_file_format" target="_blank">
+                Wikipedia — Format EXIF
+            </a>
+        </p>
+
+        <a href="#haut" class="retour-haut">⬆ Retour en haut</a>
+
+    </main>
+
+    <footer>
+       <p>Site réalisé par <strong>Oussama Belhaj</strong> — Classe de 2nd2 — Année scolaire 2025-2026</p>
+        <p>Source principale :
+            <a href="https://pixees.fr/informatiquelycee/n_site/snt_photo.html" target="_blank">pixees.fr</a>
+        </p>
+    </footer>
+
+</body>
+</html>

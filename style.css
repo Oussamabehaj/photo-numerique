@@ -1,0 +1,264 @@
+/* ===== STYLE GÉNÉRAL ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== BANNIÈRE EN HAUT ===== */
+header {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #f5a623, #ffffff, #f5a623);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header p {
+    font-size: 0.9em;
+    color: #aaaaaa;
+}
+
+/* ===== MENU DE NAVIGATION ===== */
+nav {
+    background-color: #16213e;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f5a623;
+    color: #1a1a2e;
+}
+
+/* ===== CONTENU PRINCIPAL ===== */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1a1a2e;
+    border-bottom: 2px solid #f5a623;
+    padding-bottom: 5px;
+}
+
+/* ===== IMAGES ===== */
+img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    color: #666666;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* ===== VIDÉOS ===== */
+video {
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #f5a623;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* ===== TABLEAUX ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tr:hover {
+    background-color: #fff3cd;
+    transition: background-color 0.2s ease;
+}
+
+/* ===== LISTES ===== */
+ul, ol {
+    padding-left: 25px;
+    line-height: 1.8em;
+}
+
+/* ===== LIENS DANS LE CONTENU ===== */
+main a {
+    color: #1a1a2e;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+main a:hover {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+/* ===== SECTION "LE SAVIEZ-VOUS ?" ===== */
+.saviez-vous {
+    background-color: #fff8e1;
+    border-left: 4px solid #f5a623;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.saviez-vous:hover {
+    background-color: #fff3cd;
+}
+
+.saviez-vous p {
+    margin: 0;
+}
+
+/* ===== BOUTON RETOUR EN HAUT ===== */
+.retour-haut {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.retour-haut:hover {
+    background-color: #f5a623;
+    color: #1a1a2e;
+    transform: translateY(-3px);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1a1a2e;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85em;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #f5a623;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header h1 {
+    background: linear-gradient(270deg, #f5a623, #ffffff, #f5a623, #ffcc70);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: degradé 4s ease infinite;
+}
+
+/* ===== EFFET TABLEAU ===== */
+td {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+td:hover {
+    transform: scale(1.05);
+    background-color: #f5a623;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+/* ===== BORDURE LUMINEUSE SUR LES IMAGES ===== */
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 5px rgba(245, 166, 35, 0.8);
+    border-color: #f5a623;
+    cursor: pointer;
+}
+
+/* ===== PULSATION BOUTON RETOUR EN HAUT ===== */
+@keyframes pulsation {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}
+
+.retour-haut {
+    animation: pulsation 2s ease infinite;
+}
+
+.retour-haut:hover {
+    background-color: #f5a623;
+    color: #1a1a2e;
+    animation: none;
+    transform: translateY(-3px);
+}
